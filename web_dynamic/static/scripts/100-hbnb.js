@@ -1,4 +1,4 @@
-dy(function () {
+$(document).ready(function () {
   let myAmenities = [];
   let myStates = [];
   let myCities = [];

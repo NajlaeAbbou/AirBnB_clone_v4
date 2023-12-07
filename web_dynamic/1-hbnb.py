@@ -1,4 +1,4 @@
-tarts a Flash Web Application """
+"""tarts a Flash Web Application """
 from models import storage
 from models.state import State
 from models.city import City
@@ -9,8 +9,6 @@ from flask import Flask, render_template
 import uuid
 
 app = Flask(__name__)
-# app.jinja_env.trim_blocks = True
-# app.jinja_env.lstrip_blocks = True
 
 
 @app.teardown_appcontext

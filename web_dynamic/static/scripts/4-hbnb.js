@@ -1,4 +1,4 @@
-dy(function () {
+$(document).ready(function () {
   let myId = [];
 
   $('input[type=checkbox]').click(function () {
